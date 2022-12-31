@@ -75,3 +75,39 @@ a{
     border: none;
     border-radius: 15px;
 }
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    margin-top: 50px;
+    color: black;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.illus{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.illu{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+}
+
+.illu-box{
+    border: #3B82F6 solid 4px;
+    width: 180px;
+    height: 180px;
+    border-radius: 18px;
+}
