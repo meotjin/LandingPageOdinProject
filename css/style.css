@@ -91,7 +91,7 @@ a{
 }
 
 .illus{
-    margin-top: 50px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,6 +103,7 @@ a{
     flex-direction: column;
     width: 200px;
     gap: 10px;
+    margin-bottom: 70px;
 }
 
 .illu-box{
@@ -110,4 +111,31 @@ a{
     width: 180px;
     height: 180px;
     border-radius: 18px;
+}
+
+.sub-body{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-body > div{
+    margin: 70px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+}
+.sub-quote{
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 18px;
 }
