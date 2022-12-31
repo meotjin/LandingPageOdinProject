@@ -5,7 +5,7 @@ html body{
 }
 
 div *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 
 a{
@@ -34,5 +34,48 @@ a{
 }
 
 .link{
-    color: #FFFFFF;
+    color: #A7ABB3;
+    font-size: 18px;
+}
+
+.sub-header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.image img{
+    height: auto;
+    width: 500px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.head{
+    color: #F9FAFB;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text{
+    color: #A7ABB3;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.signup-button{
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    align-self: center;
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 15px;
 }
