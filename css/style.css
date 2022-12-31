@@ -1,0 +1,38 @@
+html body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+div *{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    margin-left: 16px;
+    color: #F9FAFB;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.links{
+    display: flex;
+    margin-right: 16px;
+    gap: 30px;
+}
+
+.link{
+    color: #FFFFFF;
+}
