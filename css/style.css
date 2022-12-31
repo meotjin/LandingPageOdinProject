@@ -139,3 +139,38 @@ a{
     font-weight: 900;
     font-size: 18px;
 }
+
+.last-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-part > div{
+    width: 1000px;
+    border-radius: 15px;
+    margin: 40px;
+    color: white;
+    background-color: #3B82F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 30px;
+}
+
+.last-part .signup-button{
+    border: 2px solid white;
+}
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.top{
+    font-weight: bold;
+    font-size: 24px;
+}
