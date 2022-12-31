@@ -149,7 +149,7 @@ a{
 .last-part > div{
     width: 1000px;
     border-radius: 15px;
-    margin: 40px;
+    margin: 60px;
     color: white;
     background-color: #3B82F6;
     display: flex;
@@ -173,4 +173,13 @@ a{
 .top{
     font-weight: bold;
     font-size: 24px;
+}
+
+.footing{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
